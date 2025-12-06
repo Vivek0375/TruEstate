@@ -1,0 +1,11 @@
+Date,Customer Name,Phone Number,Gender,Age,Customer Region,Customer Type,Product ID,Product Name,Brand,Product Category,Tags,Quantity,Price per Unit,Discount Percentage,Total Amount,Final Amount,Payment Method,Order Status,Delivery Type,Store ID,Store Location,Salesperson ID,Employee Name
+2024-12-01,Rajesh Kumar,9876543210,Male,35,North,Regular,P001,Laptop,Dell,Electronics,Tech;Gaming,1,50000,10,50000,45000,Credit Card,Completed,Express,S001,New Delhi,E001,Amit Singh
+2024-12-02,Priya Sharma,9123456789,Female,28,South,New,P002,Headphones,Sony,Electronics,Audio;Gaming,2,5000,5,10000,9500,Debit Card,Completed,Standard,S002,Bangalore,E002,Priya Patel
+2024-12-03,Arjun Desai,8765432109,Male,42,East,Regular,P003,T-Shirt,Nike,Clothing,Casual;Sports,5,800,15,4000,3400,Cash,Pending,Standard,S003,Kolkata,E003,Rohit Verma
+2024-12-04,Neha Gupta,9988776655,Female,31,West,Premium,P004,Sneakers,Adidas,Footwear,Sports;Premium,1,4500,20,4500,3600,Digital Wallet,Completed,Express,S004,Mumbai,E004,Anjali Desai
+2024-12-05,Vikram Singh,9111222333,Male,38,North,Regular,P005,Coffee Maker,Philips,Home Appliances,Kitchen;Premium,1,3500,0,3500,3500,Credit Card,Shipped,Standard,S001,New Delhi,E001,Amit Singh
+2024-12-06,Anjali Nair,9444555666,Female,26,South,New,P006,Winter Jacket,Puma,Clothing,Winter;Sports,1,2500,12,2500,2200,Debit Card,Processing,Express,S002,Bangalore,E002,Priya Patel
+2024-12-07,Sanjay Mishra,9999888777,Male,45,East,Regular,P007,Running Shoes,Asics,Footwear,Sports;Premium,2,3000,10,6000,5400,Cash,Completed,Standard,S003,Kolkata,E003,Rohit Verma
+2024-12-08,Divya Tiwari,8888777666,Female,29,West,Regular,P008,Smartwatch,Apple,Electronics,Tech;Wearable,1,25000,5,25000,23750,Digital Wallet,Shipped,Express,S004,Mumbai,E004,Anjali Desai
+2024-12-09,Rohan Patel,9555666777,Male,33,North,Premium,P009,Tablet,Samsung,Electronics,Tech;Portable,1,35000,15,35000,29750,Credit Card,Completed,Standard,S001,New Delhi,E001,Amit Singh
+2024-12-10,Kavya Reddy,9777888999,Female,27,South,New,P010,Office Chair,IKEA,Furniture,Home;Office,1,8000,8,8000,7360,Debit Card,Pending,Standard,S002,Bangalore,E002,Priya Patel

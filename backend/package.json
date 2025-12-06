@@ -1,0 +1,15 @@
+{
+  "name": "truestate-backend",
+  "version": "1.0.0",
+  "description": "Backend for TruEstate SDE intern assignment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.0.0",
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  }
+}

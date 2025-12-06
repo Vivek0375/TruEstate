@@ -1,0 +1,29 @@
+const http = require('http');
+
+const options = {
+  hostname: '127.0.0.1',
+  port: 4000,
+  path: '/api/sales',
+  method: 'GET'
+};
+
+const req = http.request(options, (res) => {
+  let data = '';
+  res.on('data', (chunk) => {
+    data += chunk;
+  });
+  res.on('end', () => {
+    try {
+      console.log(JSON.stringify(JSON.parse(data), null, 2));
+    } catch (e) {
+      console.error('Error parsing response:', e);
+      console.log(data);
+    }
+  });
+});
+
+req.on('error', (e) => {
+  console.error('Request error:', e.message);
+});
+
+req.end();
