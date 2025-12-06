@@ -8,6 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/sales', salesRoutes);
+const uploadRoutes = require('./routes/upload');
+app.use('/api/upload', uploadRoutes);
 
 const PORT = process.env.PORT || 4000;
 const HOST = '127.0.0.1';
