@@ -4,6 +4,7 @@ import FilterPanel from './components/FilterPanel'
 import TransactionTable from './components/TransactionTable'
 import Pagination from './components/Pagination'
 import SortDropdown from './components/SortDropdown'
+import UploadForm from './components/UploadForm'
 import { fetchSales } from './services/api'
 
 export default function App() {
@@ -18,10 +19,16 @@ export default function App() {
     fetchData()
   }, [query])
 
+  const onUploaded = () => {
+    // refresh data after a new CSV is uploaded
+    setQuery({ ...query, page: 1 })
+  }
+
   return (
     <div style={{ padding: 20, fontFamily: 'Arial, sans-serif' }}>
       <h2>Retail Sales Management</h2>
-      <SearchBar onSearch={q => setQuery({ ...query, q, page: 1 })} />
+  <UploadForm onUploaded={onUploaded} />
+  <SearchBar onSearch={q => setQuery({ ...query, q, page: 1 })} />
       <div style={{ display: 'flex', gap: 20, marginTop: 10 }}>
         <FilterPanel onChange={filters => setQuery({ ...query, ...filters, page: 1 })} />
         <div style={{ flex: 1 }}>
